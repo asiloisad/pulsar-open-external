@@ -2,7 +2,7 @@
   "name": "open-external",
   "main": "./lib/main",
   "version": "0.0.0",
-  "description": "The pack of function to open file external",
+  "description": "The pack of external openers functions",
   "keywords": [
     "bacadra",
     "unsupported",
