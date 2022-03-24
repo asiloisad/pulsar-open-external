@@ -1,0 +1,6 @@
+'atom-workspace':
+  'alt-u'   : 'open-external:toggle-unsupported-flag'
+
+'atom-text-editor, .tree-view':
+  'alt-f12' : 'open-external:open-external'
+  'ctrl-f12': 'open-external:show-in-folder'

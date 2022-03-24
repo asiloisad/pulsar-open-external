@@ -1,0 +1,7 @@
+'context-menu':
+  '.tree-view .file': [
+    {'label': 'Open External', 'command': 'open-external:open-external'}
+  ]
+  '.tree-view .directory': [
+    {'label': 'Open External', 'command': 'open-external:open-external'}
+  ]
