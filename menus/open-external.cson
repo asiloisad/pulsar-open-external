@@ -5,3 +5,10 @@
   '.tree-view .directory': [
     {'label': 'Open External', 'command': 'open-external:open-external'}
   ]
+  '.image-view': [
+    {'label': 'Open External', 'command': 'open-external:open-external'}
+    {'label': 'Show in Folder', 'command': 'open-external:show-in-folder'}
+  ]
+  '.platform-win32 .image-view': [
+    {'label': 'Edit in Paint', 'command': 'open-external:edit-in-paint'}
+  ]

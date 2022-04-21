@@ -10,10 +10,14 @@ In `atom-workspace` space there are available commands:
 
 * `open-external:toggle-unsupported-flag`: (default `Alt-U`) quick switch of external opener state
 
-In `atom-text-editor` space there are available commands:
+In `atom-text-editor` and `.image-view` spaces there are available commands:
 
 * `open-external:open-external`: (default `Alt-F12`) open active file external
 * `open-external:show-in-folder`: (defualt `Ctrl-F12`) show active file in system default file manager
+
+In `.platform-win32 .image-view` space there are available commands:
+
+* `open-external:edit-in-paint`: open image in paint editor
 
 In `.tree-view` space there are available commands:
 

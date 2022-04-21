@@ -9,6 +9,7 @@
     "open",
     "external",
     "tree",
+    "paint",
     "editor"
   ],
   "homepage": "https://github.com/bacadra/atom-open-external",
