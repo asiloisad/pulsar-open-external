@@ -8,11 +8,15 @@ Many files cannot be displayed in human-readable form and the corresponding Atom
 
 ## Installation
 
-After the announcement of Atoms sunset, the official [Atom packages store](https://atom.io/packages) isn't respond properly, so latest version of this package cannot be downloaded there. To get latest version run the shell command
+The official [Atom packages store](https://atom.io/packages) has been disabled. To get latest version run the shell command
 
     apm install bacadra/atom-open-external
 
-and obtain the package directly from Github repository. Please note that package will occur in `Settings/Packages/Git Packages` instead of `Community Packages`.
+and obtain the package directly from Github repository.
+
+The package has compability with [Pulsar](https://pulsar-edit.dev/) and can be install
+
+    pulsar -p install bacadra/atom-open-external
 
 ## Usage
 
@@ -41,9 +45,9 @@ In `atom-text-editor[data-grammar~="latex"]` space there are available commands:
 
 # Contributing
 
-If you have ideas on how to improve the package, see bugs or want to support new features, feel free to share them via GitHub.
+If you have ideas on how to improve the package, see bugs or want to support new features - feel free to share it via GitHub.
 
-See my other packages dedicated to Atom Editor:
+See my other packages for Atom Editor:
 
 * [autocomplete-sofistik](https://github.com/bacadra/atom-autocomplete-sofistik)
 * [bib-finder](https://github.com/bacadra/atom-bib-finder)
