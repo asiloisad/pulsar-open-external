@@ -1,5 +1,10 @@
 # open-external
 
+![Tag](https://img.shields.io/github/v/tag/bacadra/atom-open-external?style=for-the-badge)
+![LastCommit](https://img.shields.io/github/last-commit/bacadra/atom-open-external?style=for-the-badge)
+![RepoSize](https://img.shields.io/github/repo-size/bacadra/atom-open-external?style=for-the-badge)
+![Licence](https://img.shields.io/github/license/bacadra/atom-open-external?style=for-the-badge)
+
 ![open-external](https://github.com/bacadra/atom-open-external/raw/master/assets/open-external.png)
 
 ![tree-view-external](https://github.com/bacadra/atom-open-external/raw/master/assets/tree-view-external.png)
