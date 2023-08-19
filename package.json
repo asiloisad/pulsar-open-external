@@ -12,9 +12,12 @@
     "paint",
     "editor"
   ],
-  "homepage": "https://github.com/bacadra/atom-open-external",
-  "url": "https://github.com/bacadra/atom-open-external",
-  "repository": "https://github.com/bacadra/atom-open-external",
+  "engines": {
+    "atom": ">=1.100.0 <2.0.0"
+  },  
+  "homepage": "https://github.com/bacadra/pulsar-open-external",
+  "url": "https://github.com/bacadra/pulsar-open-external",
+  "repository": "https://github.com/bacadra/pulsar-open-external",
   "consumedServices": {
     "tree-view": {
       "versions": {
