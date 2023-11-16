@@ -1,9 +1,9 @@
 'atom-workspace':
-  'alt-u': 'open-external:toggle-unsupported-flag'
+  'alt-u': 'open-external:toggle'
 
 'atom-text-editor, .tree-view':
-  'alt-f12' : 'open-external:open-external'
-  'ctrl-f12': 'open-external:show-in-folder'
+  'alt-f12' : 'open-external:open'
+  'ctrl-f12': 'open-external:show'
 
 'atom-text-editor[data-grammar~="latex"]':
   'f7': 'open-external:open-TeX-PDF-internal'

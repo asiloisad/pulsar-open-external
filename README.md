@@ -15,28 +15,28 @@
   </a>
 </p>
 
-![open-external](https://github.com/bacadra/pulsar-open-external/raw/master/assets/open-external.png)
+![open-external](https://github.com/bacadra/pulsar-open-external/raw/master/assets/nots.png)
 
-![tree-view-external](https://github.com/bacadra/pulsar-open-external/raw/master/assets/tree-view-external.png)
+![tree-view-external](https://github.com/bacadra/pulsar-open-external/raw/master/assets/menu.png)
 
-Many files cannot be displayed in human-readable form and the corresponding Pulsar editor plugins do not exist. In this case, the most convenient way of exploring it is to open it in an external program.
+Many files cannot be displayed in human readable form, and there are no Pulsar plug-ins to do this. In this case, the most convenient way to explore them is to open them in an external program.
 
 ## Installation
 
 To install `open-external` search for [open-external](https://web.pulsar-edit.dev/packages/open-external) in the Install pane of the Pulsar settings or run `ppm install open-external`.
 
-Alternatively, run `ppm install bacadra/pulsar-open-external` to install a package directly from Github repository.
+Alternatively, you can run `ppm install bacadra/pulsar-open-external` to install a package directly from the Github repository.
 
 ## Usage
 
 In `atom-workspace` space there are available commands:
 
-* `open-external:toggle-unsupported-flag`: (default `Alt-U`) quick switch of external opener state
+* `open-external:toggle`: (default `Alt-U`) quick switch
 
 In `atom-text-editor` and `.image-view` spaces there are available commands:
 
-* `open-external:open-external`: (default `Alt-F12`) open active file external
-* `open-external:show-in-folder`: (defualt `Ctrl-F12`) show active file in system default file manager
+* `open-external:open`: (default `Alt-F12`) open active file in external program
+* `open-external:show`: (defualt `Ctrl-F12`) show active file in system default file manager
 
 In `.platform-win32 .image-view` space there are available commands:
 
@@ -44,8 +44,8 @@ In `.platform-win32 .image-view` space there are available commands:
 
 In `.tree-view` space there are available commands:
 
-* `open-external:open-external`: (default `Alt-F12`) open active item external
-* `open-external:show-in-folder`: (default `Ctrl-F12`) show active item in system default file manager
+* `open-external:open`: (default `Alt-F12`) open active item in external program
+* `open-external:show`: (default `Ctrl-F12`) show active item in system default file manager
 
 In `atom-text-editor[data-grammar~="latex"]` space there are available commands:
 

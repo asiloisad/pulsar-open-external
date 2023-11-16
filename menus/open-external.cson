@@ -1,13 +1,13 @@
 'context-menu':
   '.tree-view .file': [
-    {'label': 'Open External', 'command': 'open-external:open-external'}
+    {'label': 'Open External', 'command': 'open-external:open'}
   ]
   '.tree-view .directory': [
-    {'label': 'Open External', 'command': 'open-external:open-external'}
+    {'label': 'Open External', 'command': 'open-external:open'}
   ]
   '.image-view': [
-    {'label': 'Open External', 'command': 'open-external:open-external'}
-    {'label': 'Show in Folder', 'command': 'open-external:show-in-folder'}
+    {'label': 'Open External', 'command': 'open-external:open'}
+    {'label': 'Show in Folder', 'command': 'open-external:show'}
   ]
   '.platform-win32 .image-view': [
     {'label': 'Edit in Paint', 'command': 'open-external:edit-in-paint'}
