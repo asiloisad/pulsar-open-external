@@ -1,10 +1,10 @@
 'atom-workspace':
   'alt-u': 'open-external:toggle'
 
-'atom-text-editor, .tree-view':
+'atom-text-editor:not([mini]), .tree-view':
   'alt-f12' : 'open-external:open'
   'ctrl-f12': 'open-external:show'
 
 'atom-text-editor[data-grammar~="latex"]':
-  'f7': 'open-external:open-TeX-PDF-internal'
-  'f8': 'open-external:open-TeX-PDF-external'
+  'f7': 'open-external:atom-TeX-PDF'
+  'f8': 'open-external:open-TeX-PDF'
