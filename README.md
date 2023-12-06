@@ -23,34 +23,36 @@ Many files cannot be displayed in human readable form, and there are no Pulsar p
 
 ## Installation
 
-To install `open-external` search for [open-external](https://web.pulsar-edit.dev/packages/open-external) in the Install pane of the Pulsar settings or run `ppm install open-external`.
-
-Alternatively, you can run `ppm install bacadra/pulsar-open-external` to install a package directly from the Github repository.
+To install `open-external` search for [open-external](https://web.pulsar-edit.dev/packages/open-external) in the Install pane of the Pulsar settings or run `ppm install open-external`. Alternatively, you can run `ppm install bacadra/pulsar-open-external` to install a package directly from the Github repository.
 
 ## Usage
 
 In `atom-workspace` space there are available commands:
 
-* `open-external:toggle`: (default `Alt-U`) quick switch
+- `open-external:toggle`: (default `Alt-U`) quick switch
 
 In `atom-text-editor` and `.image-view` spaces there are available commands:
 
-* `open-external:open`: (default `Alt-F12`) open active file in external program
-* `open-external:show`: (defualt `Ctrl-F12`) show active file in system default file manager
+- `open-external:open`: (default `Alt-F12`) open active file in external program
+- `open-external:show`: (defualt `Ctrl-F12`) show active file in system default file manager
+- `open-external:atom-selected`: select path and open file Pulsar
+- `open-external:open-selected`: select path and open file in external program
+- `open-external:show-selected`: select path and show file in system default file manager
 
 In `.platform-win32 .image-view` space there are available commands:
 
-* `open-external:edit-in-paint`: open image in paint editor
+- `open-external:edit-in-paint`: open image in paint editor
 
 In `.tree-view` space there are available commands:
 
-* `open-external:open`: (default `Alt-F12`) open active item in external program
-* `open-external:show`: (default `Ctrl-F12`) show active item in system default file manager
+- `open-external:open`: (default `Alt-F12`) open active item in external program
+- `open-external:show`: (default `Ctrl-F12`) show active item in system default file manager
 
 In `atom-text-editor[data-grammar~="latex"]` space there are available commands:
 
-* `open-external:open-TeX-PDF-internal`: open `.pdf` file associated with`.tex` file
-* `open-external:open-TeX-PDF-external`: open `.pdf` file associated with`.tex` file external
+- `open-external:atom-TeX-PDF`: open `.pdf` file associated with`.tex` file in Pulsar
+- `open-external:open-TeX-PDF`: open `.pdf` file associated with`.tex` file in external program
+- `open-external:show-TeX-PDF`: show `.pdf` file associated with`.tex` file in system default file manager
 
 # Contributing [🍺](https://www.buymeacoffee.com/asiloisad)
 
