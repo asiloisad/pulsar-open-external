@@ -20,9 +20,9 @@ In `atom-text-editor` and `.image-view` spaces there are available commands:
 
 - `open-external:open`: (default `Alt-F12`) open active file in external program
 - `open-external:show`: (defualt `Ctrl-F12`) show active file in system default file manager
-- `open-external:atom-selected`: select path and open file Pulsar
-- `open-external:open-selected`: select path and open file in external program
-- `open-external:show-selected`: select path and show file in system default file manager
+- `open-external:atom-selected`: get selected path and open it Pulsar
+- `open-external:open-selected`: get selected path and open it in external program
+- `open-external:show-selected`: get selected path and show it in system default file manager
 
 In `.platform-win32 .image-view` space there are available commands:
 
