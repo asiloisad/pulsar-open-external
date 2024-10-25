@@ -35,8 +35,8 @@ In `.tree-view` space there are available commands:
 
 In `atom-text-editor[data-grammar~="latex"]` space there are available commands:
 
-- `open-external:atom-TeX-PDF`: open `.pdf` file associated with`.tex` file in Pulsar
-- `open-external:open-TeX-PDF`: open `.pdf` file associated with`.tex` file in external program
+- `open-external:atom-TeX-PDF`: (default `F7`) open `.pdf` file associated with`.tex` file in Pulsar
+- `open-external:open-TeX-PDF`: (default `F8`) open `.pdf` file associated with`.tex` file in external program
 - `open-external:show-TeX-PDF`: show `.pdf` file associated with`.tex` file in system default file manager
 
 # Contributing
