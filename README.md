@@ -1,10 +1,10 @@
 # open-external
 
+Open file or dir in external program. Many files cannot be displayed in human readable form, and there are no Pulsar plug-ins to do this. In this case, the most convenient way to explore them is to open them in an external program.
+
 ![open-external](https://github.com/bacadra/pulsar-open-external/raw/master/assets/nots.png)
 
 ![tree-view-external](https://github.com/bacadra/pulsar-open-external/raw/master/assets/menu.png)
-
-Many files cannot be displayed in human readable form, and there are no Pulsar plug-ins to do this. In this case, the most convenient way to explore them is to open them in an external program.
 
 ## Installation
 
@@ -41,4 +41,4 @@ In `atom-text-editor[data-grammar~="latex"]` space there are available commands:
 
 # Contributing
 
-If you have any ideas on how to improve the package, spot any bugs, or would like to support the development of new features, please feel free to share them via GitHub.
+Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!
