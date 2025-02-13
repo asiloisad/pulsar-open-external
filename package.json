@@ -3,10 +3,9 @@
   "description": "Open file or dir in external program",
   "repository": "https://github.com/bacadra/pulsar-open-external",
   "keywords": [
-    "bacadra",
-    "unsupported",
     "open",
     "external",
+    "unsupported",
     "tree",
     "paint",
     "editor"
