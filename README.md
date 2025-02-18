@@ -2,13 +2,13 @@
 
 Open file or dir in external program. Many files cannot be displayed in human readable form, and there are no Pulsar plug-ins to do this. In this case, the most convenient way to explore them is to open them in an external program.
 
-![open-external](https://github.com/bacadra/pulsar-open-external/raw/master/assets/nots.png)
+![open-external](https://github.com/asiloisad/pulsar-open-external/raw/master/assets/nots.png)
 
-![tree-view-external](https://github.com/bacadra/pulsar-open-external/raw/master/assets/menu.png)
+![tree-view-external](https://github.com/asiloisad/pulsar-open-external/raw/master/assets/menu.png)
 
 ## Installation
 
-To install `open-external` search for [open-external](https://web.pulsar-edit.dev/packages/open-external) in the Install pane of the Pulsar settings or run `ppm install open-external`. Alternatively, you can run `ppm install bacadra/pulsar-open-external` to install a package directly from the Github repository.
+To install `open-external` search for [open-external](https://web.pulsar-edit.dev/packages/open-external) in the Install pane of the Pulsar settings or run `ppm install open-external`. Alternatively, you can run `ppm install asiloisad/pulsar-open-external` to install a package directly from the Github repository.
 
 ## Usage
 
