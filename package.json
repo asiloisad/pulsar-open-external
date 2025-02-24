@@ -22,5 +22,21 @@
         "^1.0.0": "consumeTreeView"
       }
     }
+  },
+  "configSchema": {
+    "flag": {
+      "order": 1,
+      "title": "Toggle state of external opener",
+      "description": "Files with the listed extensions will open in an external program.",
+      "type": "boolean",
+      "default": true
+    },
+    "list": {
+      "order": 2,
+      "title": "Unsupported extensions",
+      "description": "List of file extensions to open externally.",
+      "type": "array",
+      "default": ["doc", "docx", "xls", "xlsx", "ppt", "pptx", "rtf", "exe", "dwg", "dxf", "sofistik", "cdb", "plb"]
+    }
   }
 }
