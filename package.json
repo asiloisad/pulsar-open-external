@@ -10,7 +10,7 @@
     "paint",
     "editor"
   ],
-  "version": "1.2.4",
+  "version": "1.3.0",
   "license": "MIT",
   "engines": {
     "atom": ">=1.100.0 <2.0.0"
@@ -36,7 +36,21 @@
       "title": "Unsupported extensions",
       "description": "List of file extensions to open externally.",
       "type": "array",
-      "default": ["doc", "docx", "xls", "xlsx", "ppt", "pptx", "rtf", "exe", "dwg", "dxf", "sofistik", "cdb", "plb"]
+      "default": [
+        "doc",
+        "docx",
+        "xls",
+        "xlsx",
+        "ppt",
+        "pptx",
+        "rtf",
+        "exe",
+        "dwg",
+        "dxf",
+        "sofistik",
+        "cdb",
+        "plb"
+      ]
     }
   }
 }
