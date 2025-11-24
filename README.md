@@ -39,6 +39,54 @@ In `atom-text-editor[data-grammar~="latex"]` space there are available commands:
 - `open-external:open-TeX-PDF`: (default `F8`) open `.pdf` file associated with`.tex` file in external program
 - `open-external:show-TeX-PDF`: show `.pdf` file associated with`.tex` file in system default file manager
 
+## Service API
+
+The `open-external` package provides a service that allows other packages to register custom handlers for opening external files. This enables packages to:
+
+- Override the default file opening behavior for specific file types
+- Implement custom file viewers or launchers
+- Add logging, validation, or other pre/post-processing
+- Integrate with specialized applications
+
+### Quick Example
+
+In your package's `package.json`:
+
+```json
+{
+  "consumedServices": {
+    "open-external": {
+      "versions": {
+        "^1.0.0": "consumeOpenExternalService"
+      }
+    }
+  }
+}
+```
+
+In your package's main file:
+
+```javascript
+module.exports = {
+  consumeOpenExternalService(service) {
+    // Register a custom handler
+    return service.registerHandler({
+      name: 'My Custom Handler',
+      priority: 10,
+
+      canHandle(filePath) {
+        return filePath.endsWith('.myext')
+      },
+
+      openExternal(filePath) {
+        // Your custom opening logic
+        console.log('Opening', filePath)
+      }
+    })
+  }
+}
+```
+
 # Contributing
 
 Got ideas to make this package better, found a bug, or want to help add new features? Just drop your thoughts on GitHub — any feedback’s welcome!

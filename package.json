@@ -23,6 +23,14 @@
       }
     }
   },
+  "providedServices": {
+    "open-external": {
+      "description": "Allows packages to register custom handlers for opening external files",
+      "versions": {
+        "1.0.0": "provideOpenExternalService"
+      }
+    }
+  },
   "configSchema": {
     "flag": {
       "order": 1,
