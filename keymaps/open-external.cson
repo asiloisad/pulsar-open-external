@@ -4,7 +4,3 @@
 'atom-text-editor:not([mini]), .tree-view, .image-view, .image-editor, .pdf-viewer':
   'alt-f12' : 'open-external:open'
   'ctrl-f12': 'open-external:show'
-
-'atom-text-editor[data-grammar~="latex"]':
-  'f7': 'open-external:atom-TeX-PDF'
-  'f8': 'open-external:open-TeX-PDF'
