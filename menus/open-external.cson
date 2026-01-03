@@ -1,9 +1,7 @@
 'context-menu':
-  '.tree-view .file': [
+  '.tree-view .file, .tree-view .directory': [
     {'label': 'Open External', 'command': 'open-external:open'}
-  ]
-  '.tree-view .directory': [
-    {'label': 'Open External', 'command': 'open-external:open'}
+    {'label': 'Show in Folder', 'command': 'open-external:show'}
   ]
   '.image-view, .image-editor': [
     {'label': 'Open External', 'command': 'open-external:open'}
