@@ -2,8 +2,10 @@
   '.tree-view .file, .tree-view .directory': [
     {'label': 'Open External', 'command': 'open-external:open'}
     {'label': 'Show in Folder', 'command': 'open-external:show'}
+    {'type': 'separator'}
   ]
   '.image-view, .image-editor': [
     {'label': 'Open External', 'command': 'open-external:open'}
     {'label': 'Show in Folder', 'command': 'open-external:show'}
+    {'type': 'separator'}
   ]
