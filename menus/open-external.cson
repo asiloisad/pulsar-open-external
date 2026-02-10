@@ -9,3 +9,19 @@
     {'label': 'Show in Folder', 'command': 'open-external:show'}
     {'type': 'separator'}
   ]
+
+'menu': [
+  {
+    label: 'Packages'
+    submenu: [
+      {
+        label: 'Open External'
+        submenu: [
+          { label: 'Toggle Watcher', command: 'open-external:toggle' }
+          { label: 'Open External', command: 'open-external:open' }
+          { label: 'Show in Folder', command: 'open-external:show' }
+        ]
+      }
+    ]
+  }
+]
