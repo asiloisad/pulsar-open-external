@@ -28,35 +28,11 @@ Commands available in `.tree-view`:
 - `open-external:open`: (`Alt+F12`) open selected items in external programs,
 - `open-external:show`: (`Ctrl+F12`) show selected items in file manager.
 
-## Service
+## Provided Service `open-external`
 
-The package provides a `open-external` service for other packages. This enables packages to:
+Allows other packages to register custom handlers for opening files externally. This enables packages to override the default file opening behavior for specific file types, implement custom file viewers or launchers, and integrate with specialized applications.
 
-- Override the default file opening behavior for specific file types
-- Implement custom file viewers or launchers
-- Integrate with specialized applications
-
-### API
-
-```javascript
-service.registerHandler(handler)  // Returns Disposable
-service.openExternal(filePath)    // Opens file externally
-service.showInFolder(filePath)    // Shows file in file manager
-```
-
-### Handler object
-
-```javascript
-{
-  priority: 10,                    // Required: higher = called first
-  openExternal(filePath) { ... },  // Optional: return null to pass to next handler
-  showInFolder(filePath) { ... },  // Optional: return null to pass to next handler
-}
-```
-
-### Example
-
-In your package's `package.json`:
+In your `package.json`:
 
 ```json
 {
@@ -70,7 +46,7 @@ In your package's `package.json`:
 }
 ```
 
-In your package's main file:
+In your main module:
 
 ```javascript
 module.exports = {
@@ -88,6 +64,10 @@ module.exports = {
   }
 }
 ```
+
+- `registerHandler(handler)`: registers a custom handler for file operations. Returns a `Disposable`. Handler properties: `priority` (required, higher = called first), `openExternal(filePath)` (optional, return `null` to pass to next handler), `showInFolder(filePath)` (optional, return `null` to pass to next handler).
+- `openExternal(filePath)`: opens a file externally, passing through registered handlers.
+- `showInFolder(filePath)`: shows a file in the system file manager, passing through registered handlers.
 
 ## Contributing
 

@@ -1,6 +1,6 @@
 {
   "name": "open-external",
-  "description": "Open file or dir in external program",
+  "description": "Open files and directories in external programs",
   "repository": "https://github.com/asiloisad/pulsar-open-external",
   "keywords": [
     "open",
