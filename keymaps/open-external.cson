@@ -1,6 +1,9 @@
 'atom-workspace':
   'alt-u': 'open-external:toggle'
 
+'.tree-view':
+  'e': 'open-external:toggle'
+
 'atom-text-editor:not([mini]), .image-view, .image-editor, .pdf-viewer, .tree-view':
   'alt-f12' : 'open-external:open'
   'ctrl-f12': 'open-external:show'

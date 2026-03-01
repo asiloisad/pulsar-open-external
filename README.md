@@ -25,6 +25,7 @@ Commands available in `atom-text-editor:not([mini])`, `.image-view`, `.image-edi
 
 Commands available in `.tree-view`:
 
+- `open-external:toggle`: (`E`) quick switch.
 - `open-external:open`: (`Alt+F12`) open selected items in external programs,
 - `open-external:show`: (`Ctrl+F12`) show selected items in file manager.
 
