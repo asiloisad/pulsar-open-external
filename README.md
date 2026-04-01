@@ -16,18 +16,18 @@ To install `open-external` search for [open-external](https://web.pulsar-edit.de
 
 Commands available in `atom-workspace`:
 
-- `open-external:toggle`: (`Alt+U`) quick switch.
+- `open-external:toggle`: <kbd>Alt+U</kbd> quick switch.
 
 Commands available in `atom-text-editor:not([mini])`, `.image-view`, `.image-editor`, `.pdf-viewer`:
 
-- `open-external:open`: (`Alt+F12`) open active file in external program,
-- `open-external:show`: (`Ctrl+F12`) show active file in file manager.
+- `open-external:open`: <kbd>Alt+F12</kbd> open active file in external program,
+- `open-external:show`: <kbd>Ctrl+F12</kbd> show active file in file manager.
 
 Commands available in `.tree-view`:
 
-- `open-external:toggle`: (`E`) quick switch.
-- `open-external:open`: (`Alt+F12`) open selected items in external programs,
-- `open-external:show`: (`Ctrl+F12`) show selected items in file manager.
+- `open-external:toggle`: <kbd>E</kbd> quick switch.
+- `open-external:open`: <kbd>Alt+F12</kbd> open selected items in external programs,
+- `open-external:show`: <kbd>Ctrl+F12</kbd> show selected items in file manager.
 
 ## Provided Service `open-external`
 
