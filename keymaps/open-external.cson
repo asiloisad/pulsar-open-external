@@ -2,6 +2,8 @@
   'alt-u': 'open-external:toggle'
 
 '.tree-view':
+  'alt-enter' : 'open-external:open'
+  'ctrl-enter': 'open-external:show'
   'e': 'open-external:toggle'
 
 'atom-text-editor:not([mini]), .image-view, .image-editor, .pdf-viewer, .tree-view':
